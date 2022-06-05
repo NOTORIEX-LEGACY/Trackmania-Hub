@@ -1,0 +1,18 @@
+.wrapper{
+    width: auto;
+    margin: auto;
+}
+
+nav ul li{
+    /* color: White; */
+    list-style-type: none;
+    text-align: center;
+}
+
+/* Desktop Layout */
+@media (min-width: 768px){
+    nav ul li{
+        display: inline-block;
+        list-style-type: none;
+    }
+}
