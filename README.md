@@ -1,4 +1,4 @@
-# ${REPO_NAME}
+# Trackmania-Hub
 <h2>PLEASE READ LICENSE.md!</h2>
 
-${Description}
+
