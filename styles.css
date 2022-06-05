@@ -1,11 +1,12 @@
 body{
-    background-image: url('images/1151831.jpg');
+    background-image: url('img/1151831.jpg');
 }
 
 .wrapper{
     width: auto;
-    margin: 0 auto;
-    max-width: auto;
+    margin: auto;
+    /* max-width: auto; */
+    background-color: white;
 }
 
 nav ul li{
