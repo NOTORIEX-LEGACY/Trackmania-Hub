@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+p {
+    font-family: 'Raleway';
+    text-align: justify;
+}
+
 body{
     background-image: url('img/1151831.jpg');
     /* background-position-x: center;
@@ -20,13 +29,31 @@ nav ul li{
     /* color: White; */
     list-style-type: none;
     text-align: center;
+    padding-bottom: 20px;
+}
+
+header{
+    text-align: center;
+    font-family: 'Montserrat';
+    /* width: 30%;
+    margin-left: 150px; */
+}
+
+a{
+    color: red;
+    font-family: 'Kdam Thmor Pro';
+}
+
+a:hover{
+    color: rgb(181, 181, 181);
 }
 
 /* Desktop Layout */
 @media (min-width: 768px){
     nav ul li{
         display: inline-block;
-        list-style-type: none;
+        /* list-style-type: none; */
+        padding-bottom: 0;
     }
     /* body{
         background-image: url('img/1151831.jpg');
