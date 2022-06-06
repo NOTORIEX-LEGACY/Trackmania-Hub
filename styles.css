@@ -1,9 +1,16 @@
 body{
     background-image: url('img/1151831.jpg');
+    /* background-position-x: center;
+    background-position-y: center; */
+    /* background-size: 1080px 720px; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .wrapper{
-    width: auto;
+    width: 95%;
     margin: auto;
     /* max-width: auto; */
     background-color: white;
@@ -21,4 +28,11 @@ nav ul li{
         display: inline-block;
         list-style-type: none;
     }
+    /* body{
+        background-image: url('img/1151831.jpg');
+        background-position-x: center;
+        background-position-y: center;
+        background-size: 456px 1248px;
+        height: 100%;
+    } */
 }
