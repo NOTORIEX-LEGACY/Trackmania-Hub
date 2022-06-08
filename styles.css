@@ -23,6 +23,7 @@ body{
     margin: auto;
     /* max-width: auto; */
     background-color: white;
+    margin-bottom: 20px;
 }
 
 nav {
@@ -95,6 +96,10 @@ footer{
     font-weight: bold;
     padding: 30px;
     background-color: rgb(136, 0, 0);
+    /* width: 83%;
+    margin: auto; */
+    /* max-width: auto; */
+    margin-top: 30px;
 }
 /* Desktop Layout */
 @media (min-width: 768px){
