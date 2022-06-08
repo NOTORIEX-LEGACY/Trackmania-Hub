@@ -19,7 +19,7 @@ body{
 }
 
 .wrapper{
-    width: auto;
+    width: 90%;
     margin: auto;
     /* max-width: auto; */
     background-color: white;
