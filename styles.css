@@ -67,7 +67,7 @@ a:hover{
 div[id = "tmbuy"]{
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 
 div[id = "tmbuy"] img {
@@ -89,6 +89,11 @@ footer{
 }
 /* Desktop Layout */
 @media (min-width: 768px){
+    div[id = "tmbuy"]{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
     nav ul {
         /* text-align: center; */
         display: grid;
