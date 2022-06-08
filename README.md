@@ -6,6 +6,7 @@
     <li>Enlarge Animation on Image Hover</li>
     <li>Upload Content</li>
     <li>Improve Design</li>
+    <li>Add Changelog!</li>
 </ul>
 
 
