@@ -76,7 +76,7 @@ a:hover{
 div[class = "tmbuy"]{
     text-align: center;
     display: grid;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(7, 1fr);
     grid-template-columns: 1fr;
 }
 
@@ -94,28 +94,34 @@ div[class = "tmbuy"] p{
 }
 
 #tm1 {
-    grid-row: 1 / 6;
+    /* grid-row: 1 / 6; */
+    order: 1;
 }
 
 #tm2 {
-    grid-row: 3 / 6;
+    /* grid-row: 3 / 6; */
+    order: 3;
 }
 
 #tm3{
-    grid-row: 5 / 6;
+    /* grid-row: 5 / 6; */
+    order: 5;
 }
 
-/* #text1{
-    grid-row: 2 / 6;
+#text1{
+    /* grid-row: 2 / 6; */
+    order: 2;
 }
 
 #text2{
-    grid-row: 4 / 6;
+    /* grid-row: 4 / 6; */
+    order: 4;
 }
 
 #text3{
-    grid-row: 6 / 6;
-} */
+    /* grid-row: 6 / 6; */
+    order: 6;
+}
 
 footer{
     text-align: center;
