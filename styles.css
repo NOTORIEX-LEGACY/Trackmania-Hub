@@ -93,19 +93,21 @@ div[class = "tmbuy"] p{
     color: rgb(0, 157, 128);
 }
 
+/* TODO: FIX ARRANGEMENT W/O CREATING NEW COLUMN! */
+
 #tm1 {
-    /* grid-row: 1 / 6; */
-    order: 1;
+    grid-row: 1 / 6;
+    /* order: 1; */
 }
 
 #tm2 {
-    /* grid-row: 3 / 6; */
-    order: 3;
+    grid-row: 3 / 6;
+    /* order: 3; */
 }
 
 #tm3{
-    /* grid-row: 5 / 6; */
-    order: 5;
+    grid-row: 5 / 6;
+    /* order: 5; */
 }
 
 #text1{
