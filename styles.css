@@ -138,6 +138,21 @@ footer{
     /* max-width: auto; */
     margin-top: 30px;
 }
+
+table{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table th, table td{
+    border: 1px solid black;
+    /* border-bottom: 1px solid black;
+    border-left: 1px solid black; */
+    /* margin-right: 10px; */
+    padding: 15px;
+    text-align: center;
+}
 /* Desktop Layout */
 @media (min-width: 768px){
     div[class = "tmbuy"]{
@@ -164,19 +179,6 @@ footer{
         background-size: 456px 1248px;
         height: 100%;
     } */
-    table{
-        /* border: 1px solid black; */
-        border-collapse: collapse;
-        width: 100%;
-    }
-    table th, table td{
-        border: 1px solid black;
-        /* border-bottom: 1px solid black;
-        border-left: 1px solid black; */
-        /* margin-right: 10px; */
-        padding: 15px;
-        text-align: center;
-    }
     table li{
         text-align: justify;
     }
