@@ -30,6 +30,10 @@ nav {
     background-color: forestgreen;
 }
 
+nav ul{
+    padding: 0; /* https://stackoverflow.com/questions/9620594/removing-ul-indentation-with-css */
+}
+
 nav ul li{
     /* color: White; */
     list-style-type: none;
