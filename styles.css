@@ -181,10 +181,15 @@ ul li:hover .morecontent{
 }
 
 ul li ul{
-    position: absolute;
+    position: relative;
     background-color: rgb(255, 183, 0);
     /* margin-left: 200px; */
-    right: 50%;
+    /* right: 50%; */
+    /* margin-top: 1rem; */
+    /* right: 0; */
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
 }
 
 ul li ul li{
@@ -193,13 +198,21 @@ ul li ul li{
     /* margin-bottom: 1px; */
 }
 
+/* .hovery:hover .morecontent{
+    display: block;
+} */
+
 ul li ul li a:hover{
     color: blue;
 }
 
-li:hover{
+/* li:hover{
+    cursor: pointer;
+} */
+.hovery:hover{
     cursor: pointer;
 }
+
 /* Desktop Layout */
 @media (min-width: 768px){
     .tmbuy{
@@ -248,5 +261,12 @@ li:hover{
         grid-row: 2;
         grid-column: 3;
         /* order: 6; */
+    }
+    /* https://stackoverflow.com/questions/56444733/changing-position-of-dropdown-menu */
+    ul li ul{
+        position: absolute;
+        left: 33%;
+        right: auto;
+        transform: translateX(-50%);
     }
 }
