@@ -213,6 +213,14 @@ ul li ul li a:hover{
     cursor: pointer;
 }
 
+tr td ul li{
+    list-style-type: none;
+}
+
+tr td ul{
+    padding: 0;
+}
+
 /* Desktop Layout */
 @media (min-width: 768px){
     .tmbuy{
@@ -268,5 +276,13 @@ ul li ul li a:hover{
         left: 33%;
         right: auto;
         transform: translateX(-50%);
+    }
+    tr td ul li{
+        list-style-type: disc;
+    }
+    
+    tr td ul{
+        padding-top: 10px;
+        padding-left: 30px;
     }
 }
