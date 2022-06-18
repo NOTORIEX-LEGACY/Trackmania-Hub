@@ -277,6 +277,12 @@ tr td ul{
         right: auto;
         transform: translateX(-50%);
     }
+    ul li #v2{
+        position: absolute;
+        left: 73%;
+        right: auto;
+        transform: translateX(-75%);
+    }
     tr td ul li{
         list-style-type: disc;
     }
