@@ -236,6 +236,10 @@ tr td ul{
     padding: 0;
 }
 
+tr a:hover{
+    color: rgb(223, 223, 0);
+}
+
 /* Desktop Layout */
 @media (min-width: 768px){
     .tmbuy{
@@ -305,5 +309,15 @@ tr td ul{
     tr td ul{
         padding-top: 10px;
         padding-left: 30px;
+    }
+
+    tr a{
+        transition-property: all;
+        transition-duration: 1s;
+    }
+
+    tr a:hover{
+        font-size: 30px;
+        color: rgb(223, 223, 0);
     }
 }
