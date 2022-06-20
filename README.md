@@ -3,10 +3,12 @@
 
 # Proposed Ideas
 <ul>
-    <li>Enlarge Animation on Image Hover</li>
+    <li><s>Enlarge Animation on Image Hover</s></li>
     <li>Upload Content</li>
     <li>Improve Design</li>
     <li>Add Changelog!</li>
+    <li>Create website link embed</li>
+    <li><s>Add transition animation</s></li>
 </ul>
 
 
