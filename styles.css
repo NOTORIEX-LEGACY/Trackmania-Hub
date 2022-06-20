@@ -104,6 +104,13 @@ a:hover, .hovery:hover{
     /* margin-left: 10px; */
     /* margin: auto; */
     /* display: block; */
+    transition: all;
+    transition-duration: 1s;
+}
+
+.tmbuy img:hover{
+    width: 250px;
+    height: 150px;
 }
 
 .tmbuy p{
