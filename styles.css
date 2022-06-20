@@ -81,6 +81,7 @@ a:visited{
 
 a:hover, .hovery:hover{
     color: rgb(181, 181, 181);
+    font-size: 25px;
 }
 
 /* div[id = "tmbuy"] {
