@@ -126,7 +126,7 @@ a:hover, .hovery:hover{
     color: rgb(0, 157, 128);
 }
 
-/* TODO: FIX ARRANGEMENT W/O CREATING NEW COLUMN! */
+/* DONE: FIX ARRANGEMENT W/O CREATING NEW COLUMN! */
 
 #tm1 {
     grid-row: 1;
