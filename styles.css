@@ -65,7 +65,15 @@ a, .hovery{
     color: rgb(146, 0, 0);
     font-family: 'Kdam Thmor Pro';
     text-decoration: underline;
+    transition-property: all;
+    transition-duration: .5s;
 }
+
+a {
+    /* transition-property: all;
+    transition-duration: .5s; */
+}
+
 
 a:visited{
     color: rgb(0, 0, 0);
