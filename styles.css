@@ -69,10 +69,10 @@ a, .hovery{
     transition-duration: .5s;
 }
 
-a {
+/* a { */
     /* transition-property: all;
     transition-duration: .5s; */
-}
+/* } */
 
 
 a:visited{
