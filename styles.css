@@ -316,6 +316,10 @@ tr a:hover{
     color: rgb(223, 223, 0);
 }
 
+#request-map:hover{
+    color: rgb(0, 210, 126);
+}
+
 /* Desktop Layout */
 @media (min-width: 768px){
     .tmbuy{
