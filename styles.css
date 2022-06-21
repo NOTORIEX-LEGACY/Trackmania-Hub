@@ -54,11 +54,51 @@ header{
     background-color: black;
     padding-bottom: 20px;
     margin-bottom: -16px;
+    /* font-size: 16px; */
+}
+
+header h1{
+    /* ANIMATION */
+    animation-name: header-move;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    position: relative;
+    top: -500px;
+}
+
+@keyframes header-move{
+    0%{
+        opacity: 0;
+        font-size: 16px;
+        top: -500px;
+    }
+    100%{
+        opacity: 1;
+        font-size: 32px;
+        top: 0px;
+    }
 }
 
 .first-word{
     color: white;
     font-size: 25px;
+    animation-name: first-word-move;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
+    position: relative;
+    left: -2000px;
+}
+
+@keyframes first-word-move{
+    0%{
+        opacity: 0;
+        left: -2000px;
+    }
+    100%{
+        opacity: 1;
+        left: 0px;
+    }
 }
 
 a, .hovery{
@@ -160,17 +200,37 @@ a:hover, .hovery:hover{
 }
 
 footer{
-    text-align: center;
-    font-family: 'Montserrat';
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 30px;
     background-color: rgb(136, 0, 0);
     /* width: 83%;
     margin: auto; */
     /* max-width: auto; */
     margin-top: 30px;
+}
+
+footer p{
+    padding: 30px;
+    text-align: center;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+    /* ANIMATION */
+    animation-name: footer-up;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    position: relative;
+    bottom: -500px;
+}
+
+@keyframes footer-up{
+    0%{
+        bottom: -500px;
+    }
+    100%{
+        bottom: 0px;
+    }
 }
 
 table{
