@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+ol, ol a{
+    font-family:'Indie Flower';
+    font-weight: bold;
+}
+
+ol a:hover{
+    color: red;
+}
+
+ol a{
+    color: green;
+}
