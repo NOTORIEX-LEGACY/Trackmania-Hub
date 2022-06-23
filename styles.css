@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 p {
     font-family: 'Raleway';
@@ -256,6 +257,7 @@ table{
     /* border: 1px solid black; */
     border-collapse: collapse;
     width: 100%;
+    font-family: 'Varela Round';
 }
 
 table th, table td{
@@ -266,6 +268,42 @@ table th, table td{
     padding: 15px;
     text-align: center;
 }
+
+table tr:nth-of-type(2n-1){
+    /* background-color: #ffff80; */
+    /* background-color: black; */
+    background-color: rgb(34, 34, 34);
+    color: white;
+}
+
+table tr:nth-of-type(2n){
+    /* background-color: rgb(44, 35, 99); */
+    /* background-color: #A5F2F3; */
+    /* background-color: #0434c0; */
+    color: deepskyblue;
+}
+
+/* table tr:nth-of-type(2n) a{ */
+table tr a{
+    color: red;
+}
+
+table tr:nth-of-type(2n) a:hover{
+    color: forestgreen;
+}
+
+table tr:nth-of-type(1){
+    background-color: deepskyblue;
+    color: white;
+}
+
+/* table tr:nth-of-type(2n){
+    background-color: #A5F2F3;
+} */
+
+/* table tr:nth-of-type(1){
+    background-color: red;
+}*/
 
 .morecontent{
     display: none;
