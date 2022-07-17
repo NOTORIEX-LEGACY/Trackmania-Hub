@@ -1,0 +1,3 @@
+# map-thumbnails
+
+Thumbnails!
